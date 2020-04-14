@@ -1,0 +1,250 @@
+/* global */
+*
+{
+    box-sizing:border-box
+}
+/* body */
+body
+{
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform:capitalize
+}
+/* nav */
+nav
+{
+    float:left;
+    width:20%;
+    padding:30px
+}
+/* nav logo */
+nav .logo h1
+{
+    display:inline-block;
+    font-size:20px;
+    line-height:1;
+    margin-left:10px
+}
+/* nav navbar */
+nav .navbar ul
+{
+    padding:0
+}
+nav .navbar ul li
+{
+    list-style:none;
+    padding:20px 10px;
+    font-weight:bold;
+    color:#bab9bd;
+    cursor:pointer;
+    transition:all .3s ease-in-out
+}
+nav .navbar ul li i
+{
+    margin-right:25px
+}
+nav .navbar ul li:hover,
+nav .navbar ul .active
+{
+    color:#000
+}
+nav .navbar ul li:hover i,
+nav .navbar ul .active i
+{
+    color:#6277f1
+}
+/* content */
+.content
+{
+    float:left;
+    width:calc(80% - 20px);
+    margin:10px;
+    padding:30px 50px 20px;
+    border-radius:20px;
+    background-color:#f2f2f5
+}
+/* content header */
+.content header
+{
+    overflow:hidden
+}
+.content .search
+{
+    float:left;
+    width:30%;
+    position:relative;
+    color:#bab9bd
+}
+.content .search input
+{
+    width:100%;
+    border:none;
+    border-radius:10px;
+    height:40px;
+    padding:10px;
+    font-size:20px
+}
+.content .search i
+{
+    position:absolute;
+    top:12px;
+    right:10px;
+    cursor:pointer
+}
+.content .profile
+{
+    float:right;
+    cursor:pointer
+}
+.content .profile img
+{
+    width:40px;
+    float:left;
+    border-radius:50%
+}
+.content .profile h5
+{
+    float:left;
+    margin:12px 10px
+}
+.content .profile i
+{
+    margin:11px 0;
+    color:#bab9bd
+}
+/* content forms */
+.content .actual-forms
+{
+    background-color:#fecfd7;
+    border-radius:20px;
+    margin:50px 0;
+    padding:10px 30px 50px;
+    overflow:hidden;
+    color:#fff
+}
+.content .actual-forms .form
+{
+    background-color:#ff8ea0;
+    border-radius:20px;
+    padding:30px 20px;
+    overflow:hidden;
+    width:32%;
+    margin-right:2%;
+    float:left;
+    cursor:pointer;
+    box-shadow:5px 10px 35px -10px rgba(0, 0, 0, .3);
+    transition:all .3s ease-in-out
+}
+.content .actual-forms .form:hover
+{
+    background-color:#6277f1
+}
+.content .actual-forms .form:last-child
+{
+    margin-right:0
+}
+.content .actual-forms .form i
+{
+    background-color:#fd9fad;
+    width:50px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    border-radius:10px;
+    float:left;
+    transition:all .3s ease-in-out
+}
+.content .actual-forms .form:hover i
+{
+    background-color:rgb(148, 151, 204)
+}
+.content .actual-forms .form .client
+{
+    float:left;
+    margin-left:20px
+}
+.content .actual-forms .form .client h3
+{
+    margin:0 0 10px
+}
+.content .actual-forms .form .client span
+{
+    color:#f2f2f5;
+    text-transform:none
+}
+/* content requests */
+.content .requests
+{
+    overflow:hidden
+}
+.content .requests .request
+{
+    background-color:#fff;
+    border-radius:20px;
+    padding:25px;
+    width:23.5%;
+    margin-right:2%;
+    float:left;
+    margin-bottom:20px
+}
+.content .requests .request .new,
+.content .requests .request .read,
+.content .requests .request .replied
+{
+    float:left;
+    font-weight:bold;
+    text-transform:uppercase
+}
+.content .requests .request .new
+{
+    color:#de7a93
+}
+.content .requests .request .read
+{
+    color:#7d80bd
+}
+.content .requests .request .replied
+{
+    color:#574f9c
+}
+.content .requests .request span i
+{
+    font-size:5px
+}
+.content .requests .request .date
+{
+    float:right;
+    color:#acabb9
+}
+.content .requests .request .client-type
+{
+    margin:40px 0
+}
+.content .requests .request .client-type h4
+{
+    margin-bottom:10px
+}
+.content .requests .request .client-type span
+{
+    text-transform:none;
+    color:#acabb9
+}
+.content .requests .request .person
+{
+    overflow:hidden
+}
+.content .requests .request .person img
+{
+    width:40px;
+    float:left;
+    margin-right:10px;
+    border-radius:50%
+}
+.content .requests .request .person h5
+{
+    margin:15px 0
+}
+.content .requests .request:nth-child(5),
+.content .requests .request:last-child
+{
+    margin-right:0
+}
